@@ -1,0 +1,2 @@
+# travellAppDev
+ALTER TABLE `users` ADD `isLoggedIn` BOOLEAN NOT NULL DEFAULT FALSE AFTER `longitude`, ADD `quickBlockUserId` BIGINT(20) NOT NULL AFTER `isLoggedIn`, ADD `reportSpam` BOOLEAN NOT NULL DEFAULT FALSE AFTER `quickBlockUserId`;
